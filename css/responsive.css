@@ -1,0 +1,1126 @@
+/* 
+                    ***********************************************
+                    **************Responsive Media Quary***********
+                    ***********************************************
+*/
+
+@media (min-width: 280px) and (max-width: 319px) {
+  
+    /* CSS */
+    .navbar-light .navbar-nav .nav-link.active{
+        background: url("../images/dotdot.png") left bottom no-repeat;
+        background-size: auto;  
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+        font-size: 16px;   
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link:hover{
+        background: url("../images/dotdot.png") left bottom no-repeat;
+    }
+    .banner{
+        padding: 25px 0px 35px ;   
+    }
+    .banner h4{
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        margin-top: 20px;   
+    }
+    .banner h1{
+        font-size: 22px;
+        line-height: 32px;
+    }
+    .banner p{
+       font-size: 11px;
+       line-height: 21px;
+    }
+    .inner-btn {
+        padding: 15px 0px 0px 0px;
+    }
+    .banner .btn-primary{
+        font-size: 10px;
+        padding: 10px 8px;
+    }
+    .banner .btn-secondary{
+        font-size: 10px;
+        padding: 10px 8px;
+    }
+    .product-section{
+        padding: 25px 0px;
+    }
+    .product-section h4{
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+    }
+    .product-section h2 {
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    } 
+    .feature {
+        padding: 0px 8px;
+    }
+    .feature .fig {
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+    }
+    .feature h3{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    .about-long {
+        padding: 35px 0px;
+    }
+    .about-long .title{
+        text-align: center;
+        padding: 5px 0px;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .about-long .title h4{
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-align: center;
+    } 
+    .about-long .title h2{
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    }
+    .about-long p {
+        font-size: 12px;
+    }
+    .icon-list li {
+        font-size: 15px;
+        line-height: 25px;
+    } 
+    .about-short{
+        padding: 35px 0px;
+    }  
+    .about-short .title{
+        text-align: center;
+        padding: 5px 0px;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .about-short .title h4{
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-align: center;
+    } 
+    .about-short .title h2{
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    } 
+    .about-short .title p{
+        font-size: 11px;
+       line-height: 21px;
+    } 
+    .Testimonials-section{
+        padding: 35px 0px;
+    }
+    .Testimonials-section .title{
+        text-align: center;
+        padding: 5px 0px;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .Testimonials-section .title h4{
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .Testimonials-section .title h2{
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 20px;
+        color: #fff;
+    } 
+    .Testimonials-section .owl-carousel .item h4{
+        font-size: 16px;
+        line-height: 25px;
+        font-style: italic;
+    } 
+    .Testimonials-section .owl-carousel .item .round {
+        width: 55px;
+        height: 55px;
+    }
+    .Testimonials-section .owl-carousel .item h5 {
+        font-size: 11px;
+        line-height: 21px;
+    }
+    .Testimonials-section .owl-carousel .item p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .Eye-catcher{
+        padding: 20px 0px;
+    }
+    .Eye-catcher h2 {
+        font-size: 22px;
+        line-height: 32px;
+    } 
+    .Eye-catcher h2 span{
+        font-size: 22px;
+        line-height: 32px;
+    } 
+    .inner-btn {
+        padding: 25px 0px 0px 0px;
+    }    
+    .Eye-catcher .inner-btn .btn-info{
+        font-size: 10px;
+        padding: 10px 8px;
+    } 
+    .Eye-catcher .inner-btn .btn-primary{
+        font-size: 10px;
+        padding: 10px 8px;
+    }
+    .price-section {
+        padding: 35px 0px;
+    }
+    .price-section .title{
+        text-align: center;
+        padding: 5px 0px;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .price-section .title h4{
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-align: center;
+    } 
+    .price-section .title h2{
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    } 
+    .price-section .title p{
+        font-size: 11px;
+       line-height: 21px;
+    }
+    .price-section .price-head {
+        padding: 10px 0px;
+    }   
+    .price-section .price-head h2{
+        font-size: 22px;  
+    }  
+    .price-section .price-box .price-inner {
+        padding: 15px 0px;
+    } 
+    .price-section .price-box .price-inner h1 sup{
+        font-size: 20px;  
+    }
+    .price-section .price-box .price-inner h1{
+        font-size: 22px;  
+    } 
+    .price-section .price-box .price-inner p{
+        font-size: 12px;
+        line-height: 22px;  
+    }
+    .price-section .price-box .price-content {
+        padding: 25px;
+    }
+    .price-section .price-box .price-content p {
+        font-size: 14px;
+        line-height: 24px;
+    } 
+    .price-section .price-box .price-content .btn-info {
+        font-size: 12px;
+    }
+    .contact-us {
+        padding: 35px 0px 0px;
+    } 
+    .contact-us .title{
+        text-align: center;
+        padding: 5px 0px;
+        margin-bottom: 20px;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .contact-us .title h4{
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-align: center;
+    } 
+    .contact-us .title h2{
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    } 
+    .contact-us .title p{
+        font-size: 11px;
+       line-height: 21px;
+    }
+    .contact-us .info .fa {
+        font-size: 22px;
+    }  
+    .contact-us .info p {
+        font-size: 12px;
+    }
+    .main-form {
+        padding: 30px 40px 20px; 
+    }   
+    .main-form .text-right .btn-primary {
+        font-size: 12px;
+        padding: 8px 33px;
+    }
+    .footer-section {
+        padding: 15px 0px;
+    }
+    .footer-section .social-icon .fa {
+        font-size: 14px;
+        margin: 8px 8px; 
+    }
+    .footer-section .social-icon p{
+        font-size: 12px;
+    }       
+  }
+
+
+          /*
+           ******************************************************** 
+           ##Device = Most of the Smartphones Mobiles (Portrait)***
+           ##Screen = B/w 320px to 479px***************************
+           ********************************************************
+          */
+
+
+@media (min-width: 320px) and (max-width: 480px){
+  
+    /* CSS */
+    .navbar-light .navbar-nav .nav-link.active{
+        background: url("../images/dotdot.png") left bottom no-repeat;
+        background-size: auto;  
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+        font-size: 16px;   
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link:hover{
+        background: url("../images/dotdot.png") left bottom no-repeat;
+    }
+    .banner{
+        padding: 25px 0px 35px ;   
+    }
+    .banner h4{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 2px;
+        margin-top: 20px;   
+    }
+    .banner h1{
+        font-size: 28px;
+        line-height: 36px;
+    }
+    .banner p{
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .inner-btn {
+        padding: 15px 0px 0px 0px;
+    }
+    .banner .btn-primary{
+        font-size: 10px;
+        padding: 10px 8px;
+    }
+    .banner .btn-secondary{
+        font-size: 10px;
+        padding: 10px 8px;
+    }
+    .product-section{
+        padding: 25px 0px;
+    }
+    .product-section h4{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 2px;
+    }
+    .product-section h2 {
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    } 
+    .feature {
+        padding: 0px 8px;
+    }
+    .feature .fig {
+        width: 90px;
+        height: 90px;
+        line-height: 90px;
+    }
+    .feature h3{
+        font-size: 20px;
+        line-height: 30px;
+        margin-top: 15px;
+    }
+    .about-long {
+        padding: 40px 0px;
+    }
+    .about-long .title{
+        text-align: center;
+        padding: 5px 0px;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .about-long .title h4{
+        font-size: 14px;
+        line-height: 24px;
+        letter-spacing: 2px;
+        text-align: center;
+    } 
+    .about-long .title h2{
+        font-size: 26px;
+        line-height: 36px;
+        margin-bottom: 20px;
+    }
+    .about-long p {
+        font-size: 14px;
+    }
+    .icon-list li {
+        font-size: 17px;
+        line-height: 27px;
+    } 
+    .about-short{
+        padding: 35px 0px;
+    }  
+    .about-short .title{
+        text-align: center;
+        padding: 5px 0px;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .about-short .title h4{
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-align: center;
+    } 
+    .about-short .title h2{
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    } 
+    .about-short  p{
+        font-size: 11px;
+       line-height: 21px;
+    } 
+    .Testimonials-section{
+        padding: 35px 0px;
+    }
+    .Testimonials-section .title{
+        text-align: center;
+        padding: 5px 0px;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .Testimonials-section .title h4{
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-align: center;
+    }
+    .Testimonials-section .title h2{
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 20px;
+        color: #fff;
+    } 
+    .Testimonials-section .owl-carousel .item h4{
+        font-size: 16px;
+        line-height: 25px;
+        font-style: italic;
+    } 
+    .Testimonials-section .owl-carousel .item .round {
+        width: 55px;
+        height: 55px;
+    }
+    .Testimonials-section .owl-carousel .item h5 {
+        font-size: 11px;
+        line-height: 21px;
+    }
+    .Testimonials-section .owl-carousel .item p {
+        font-size: 12px;
+        line-height: 22px;
+    }
+    .Eye-catcher{
+        padding: 20px 0px;
+    }
+    .Eye-catcher h2 {
+        font-size: 22px;
+        line-height: 32px;
+    } 
+    .Eye-catcher h2 span{
+        font-size: 22px;
+        line-height: 32px;
+    } 
+    .inner-btn {
+        padding: 25px 0px 0px 0px;
+    }    
+    .Eye-catcher .inner-btn .btn-info{
+        font-size: 10px;
+        padding: 10px 8px;
+    } 
+    .Eye-catcher .inner-btn .btn-primary{
+        font-size: 10px;
+        padding: 10px 8px;
+    }
+    .price-section {
+        padding: 35px 0px;
+    }
+    .price-section .title{
+        text-align: center;
+        padding: 5px 0px;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .price-section .title h4{
+        font-size: 12px;
+        line-height: 22px;
+        letter-spacing: 2px;
+        text-align: center;
+    } 
+    .price-section .title h2{
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    } 
+    .price-section .title p{
+        font-size: 11px;
+       line-height: 21px;
+    }
+    .price-section .price-head {
+        padding: 12px 0px;
+    }   
+    .price-section .price-head h2{
+        font-size: 22px;  
+    }  
+    .price-section .price-box .price-inner {
+        padding: 15px 0px;
+    } 
+    .price-section .price-box .price-inner h1 sup{
+        font-size: 20px;  
+    }
+    .price-section .price-box .price-inner h1{
+        font-size: 22px;  
+    } 
+    .price-section .price-box .price-inner p{
+        font-size: 12px;
+        line-height: 22px;  
+    }
+    .price-section .price-box .price-content {
+        padding: 25px;
+    }
+    .price-section .price-box .price-content p {
+        font-size: 14px;
+        line-height: 24px;
+    } 
+    .price-section .price-box .price-content .btn-info {
+        font-size: 12px;
+    }
+    .contact-us {
+        padding: 35px 0px 0px;
+    } 
+    .contact-us .title{
+        padding: 5px 0px;
+        margin-bottom: 20px;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .contact-us .title h4{
+        font-size: 12px;
+        line-height: 22px;
+    } 
+    .contact-us .title h2{
+        font-size: 22px;
+        line-height: 32px;
+        margin-bottom: 20px;
+    } 
+    .contact-us .title p{
+        font-size: 11px;
+       line-height: 21px;
+    }
+    .contact-us .info .fa {
+        font-size: 25px;
+    }  
+    .contact-us .info p {
+        font-size: 14px;
+    }
+    .main-form {
+        padding: 30px 40px 20px; 
+    }   
+    .main-form .text-right .btn-primary {
+        font-size: 13px;
+        padding: 8px 33px;
+    }
+    .footer-section {
+        padding: 15px 0px;
+    }
+    .footer-section .social-icon .fa {
+        font-size: 14px;
+        margin: 8px 8px; 
+    }
+    .footer-section .social-icon p{
+        font-size: 12px;
+    }                      
+  }
+
+
+  /* *****************************************************
+    ##Device = Low Resolution Tablets, Mobiles (Landscape)
+    ##Screen = B/w 481px to 767px*************************  
+    ******************************************************* */
+  
+ 
+    @media (min-width: 481px) and (max-width: 767px) {
+  
+        /* CSS */
+        .navbar-light .navbar-nav .nav-link.active{
+            background: url("../images/dotdot.png") left bottom no-repeat;
+            background-size: auto;  
+        }
+        .main-menu .navbar-light .navbar-nav .nav-link{
+            font-size: 16px;   
+        }
+        .main-menu .navbar-light .navbar-nav .nav-link:hover {
+            background: url("../images/dotdot.png") left bottom no-repeat;
+                background-size: auto;
+        }
+        .banner{
+            padding: 40px 0px 40px ;   
+        }
+        .banner h4{
+            font-size: 14px;
+            line-height: 24px;  
+        }
+        .banner h1{
+            font-size: 35px;
+            line-height: 50px;
+        }
+        .banner p{
+           font-size: 13px;
+           line-height: 23px;
+        }
+        .inner-btn {
+            padding: 15px 0px 0px 0px;
+        }
+        .banner .btn-primary{
+            font-size: 12px;
+            padding: 12px 15px;
+        }
+        .banner .btn-secondary{
+            font-size: 12px;
+            padding: 12px 15px;
+        }
+        .product-section{
+            padding: 40px 0px;
+        }
+        .product-section h4{
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 2px;
+        }
+        .product-section h2 {
+            font-size: 28px;
+            line-height: 38px;
+            margin-bottom: 20px;
+        } 
+        .feature {
+            padding: 0px 8px;
+        }
+        .feature .fig {
+            width: 100px;
+            height: 100px;
+            line-height: 100px;
+        }
+        .feature h3{
+            font-size: 22px;
+            line-height: 32px;
+            margin-top: 15px;
+        }
+        .feature h4{
+            font-size: 14px;
+            line-height: 24px;
+        }
+        .about-long {
+            padding: 40px 0px;
+        }
+        .about-long .title{
+            text-align: center;
+            background: url("../images/dotdot.png") center bottom no-repeat;
+        }
+        .about-long .title h4{
+            font-size: 14px;
+            line-height: 24px;
+            margin-top: 15px;
+            letter-spacing: 2px;
+            text-align: center;
+        } 
+        .about-long .title h2{
+            font-size: 28px;
+            line-height: 38px;
+            margin-bottom: 20px;
+        }
+        .about-long p {
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .icon-list li {
+            font-size: 16px;
+            line-height: 26px;
+        } 
+        .about-short{
+            padding: 40px 0px;
+        }  
+        .about-short .title{
+            text-align: center;
+            background: url("../images/dotdot.png") center bottom no-repeat;
+        }
+        .about-short .title h4{
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 2px;
+            text-align: center;
+        } 
+        .about-short .title h2{
+            font-size: 28px;
+            line-height: 38px;
+            margin-bottom: 20px;
+        } 
+        .about-short .title p{
+            font-size: 16px;
+            line-height: 26px;
+        } 
+        .Testimonials-section{
+            padding: 40px 0px;
+        }
+        .Testimonials-section .title{
+            text-align: center;
+            background: url("../images/dotdot.png") center bottom no-repeat;
+        }
+        .Testimonials-section .title h4{
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 2px;
+            text-align: center;
+        }
+        .Testimonials-section .title h2{
+            font-size: 28px;
+            line-height: 38px;
+            margin-bottom: 20px;
+            color: #fff;
+        } 
+        .Testimonials-section .owl-carousel .item h4{
+            font-size: 16px;
+            line-height: 25px;
+            font-style: italic;
+        } 
+        .Testimonials-section .owl-carousel .item .round {
+            width: 55px;
+            height: 55px;
+        }
+        .Testimonials-section .owl-carousel .item h5 {
+            font-size: 11px;
+            line-height: 21px;
+        }
+        .Testimonials-section .owl-carousel .item p {
+            font-size: 13px;
+            line-height: 23px;
+        }
+        .Eye-catcher{
+            padding: 20px 0px;
+        }
+        .Eye-catcher h2 {
+            font-size: 28px;
+            line-height: 38px;
+        } 
+        .Eye-catcher h2 span{
+            font-size: 22px;
+            line-height: 32px;
+        } 
+        .inner-btn {
+            padding: 25px 0px 0px 0px;
+        }    
+        .Eye-catcher .inner-btn .btn-info{
+            font-size: 12px;
+            padding: 12px 15px;
+        } 
+        .Eye-catcher .inner-btn .btn-primary{
+            font-size: 12px;
+            padding: 12px 15px;
+        }
+        .price-section {
+            padding: 40px 0px;
+        }
+        .price-section .title{
+            text-align: center;
+            padding: 5px 0px;
+            background: url("../images/dotdot.png") center bottom no-repeat;
+        }
+        .price-section .title h4{
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 2px;
+            text-align: center;
+        } 
+        .price-section .title h2{
+            font-size: 28px;
+            line-height: 38px;
+        } 
+        .price-section .title p{
+            font-size: 11px;
+           line-height: 21px;
+        }
+        .price-section .price-head {
+            padding: 10px 0px;
+        }   
+        .price-section .price-head h2{
+            font-size: 22px;  
+        }  
+        .price-section .price-box .price-inner {
+            padding: 15px 0px;
+        } 
+        .price-section .price-box .price-inner h1 sup{
+            font-size: 22px;  
+        }
+        .price-section .price-box .price-inner h1{
+            font-size: 24px;  
+        } 
+        .price-section .price-box .price-inner p{
+            font-size: 14px;
+            line-height: 24px;  
+        }
+        .price-section .price-box .price-content {
+            padding: 25px;
+        }
+        .price-section .price-box .price-content p {
+            font-size: 14px;
+            line-height: 24px;
+        } 
+        .price-section .price-box .price-content .btn-info {
+            font-size: 14px;
+        }
+        .contact-us {
+            padding: 40px 0px 0px;
+        } 
+        .contact-us .title{
+            text-align: center;
+            padding: 5px 0px;
+            margin-bottom: 20px;
+            background: url("../images/dotdot.png") center bottom no-repeat;
+        }
+        .contact-us .title h4{
+            font-size: 14px;
+            line-height: 24px;
+            letter-spacing: 2px;
+            text-align: center;
+        } 
+        .contact-us .title h2{
+            font-size: 28px;
+            line-height: 38px;
+            margin-bottom: 20px;
+        } 
+        .contact-us .title p{
+            font-size: 16px;
+            line-height: 26px;
+        }
+        .contact-us .info .fa {
+            font-size: 25px;
+        }  
+        .contact-us .info p {
+            font-size: 14px;
+        }
+        .main-form {
+            padding: 30px 40px 20px; 
+        }   
+        .main-form .text-right .btn-primary {
+            font-size: 12px;
+            padding: 12px 45px;
+        }
+        .footer-section {
+            padding: 20px 0px;
+        }
+        .footer-section .social-icon .fa {
+            font-size: 15px;
+            margin: 10px 10px; 
+        }
+        .footer-section .social-icon p{
+            font-size: 15px;
+        }       
+      }
+  
+  
+  /* ******************************************************
+    ***************##Device = Tablets, Ipads (portrait)****
+    ***************##Screen = B/w 768px to 1024px**********  
+    ******************************************************* */
+  
+   @media (min-width: 768px) and (max-width: 1024px) {
+    /* css */
+    .navbar-light .navbar-nav .nav-link.active{
+        background: url("../images/dotdot.png") left bottom no-repeat;
+        background-size: auto;  
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link{
+        font-size: 16px;   
+    }
+    .main-menu .navbar-light .navbar-nav .nav-link:hover {
+        background: url("../images/dotdot.png") left bottom no-repeat;
+            background-size: auto;
+    }
+    .banner{
+        padding: 60px 0px 40px ;   
+    }
+    .banner h4{
+        font-size: 18px;
+        line-height: 28px;  
+    }
+    .banner h1{
+        font-size: 48px;
+        line-height: 58px;
+    }
+    .banner p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .inner-btn {
+        padding: 40px 0px 0px 0px;
+    }
+    .banner .btn-primary{
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+    .banner .btn-secondary{
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+    .product-section{
+        padding: 60px 0px;
+    }
+    .product-section h4{
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 2px;
+    }
+    .product-section h2 {
+        font-size: 36px;
+        line-height: 46px;
+    } 
+    .feature {
+        padding: 0px 8px;
+    }
+    .feature .fig {
+        width: 100px;
+        height: 100px;
+        line-height: 100px;
+    }
+    .feature h3{
+        font-size: 22px;
+        line-height: 32px;
+        margin-top: 15px;
+    }
+    .feature h4{
+        font-size: 18px;
+        line-height: 28px;
+    }
+    .about-long {
+        padding: 60px 0px;
+    }
+    .about-long .img-fluid {
+        max-width: 100%;
+        height: auto;
+        text-align: center;
+    }
+    .about-long .title{
+        text-align: left;
+        background: url("../images/dotdot.png") left bottom no-repeat;
+    }
+    .about-long .title h4{
+        font-size: 18px;
+        line-height: 28px;
+        text-align: left;
+    } 
+    .about-long .title h2{
+        font-size: 36px;
+        line-height: 46px;
+    }
+    .about-long p {
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .icon-list li {
+        font-size: 16px;
+        line-height: 26px;
+    } 
+    .about-short{
+        padding: 60px 0px;
+    }  
+    .about-short .title{
+        text-align: center;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .about-short .title h4{
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    } 
+    .about-short .title h2{
+        font-size: 36px;
+        line-height: 46px;
+    } 
+    .about-short .title p{
+        font-size: 16px;
+        line-height: 26px;
+    } 
+    .Testimonials-section{
+        padding: 60px 0px;
+    }
+    .Testimonials-section .title{
+        text-align: center;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .Testimonials-section .title h4{
+        font-size: 18px;
+        line-height: 28px;
+        text-align: center;
+    }
+    .Testimonials-section .title h2{
+        font-size: 36px;
+        line-height: 46px;
+        color: #fff;
+    } 
+    .Testimonials-section .owl-carousel .item h4{
+        font-size: 18px;
+        line-height: 28px;
+        font-style: italic;
+    } 
+    .Testimonials-section .owl-carousel .item .round {
+        width: 55px;
+        height: 55px;
+    }
+    .Testimonials-section .owl-carousel .item h5 {
+        font-size: 11px;
+        line-height: 21px;
+    }
+    .Testimonials-section .owl-carousel .item p {
+        font-size: 13px;
+        line-height: 23px;
+    }
+    .Eye-catcher{
+        padding: 40px 0px;
+    }
+    .Eye-catcher h2 {
+        font-size: 36px;
+        line-height: 46px;
+    } 
+    .Eye-catcher h2 span{
+        font-size: 22px;
+        line-height: 32px;
+    } 
+    .inner-btn {
+        padding: 25px 0px 0px 0px;
+    }    
+    .Eye-catcher .inner-btn .btn-info{
+        font-size: 16px;
+        padding: 10px 25px;
+    } 
+    .Eye-catcher .inner-btn .btn-primary{
+        font-size: 16px;
+        padding: 10px 25px;
+    }
+    .price-section {
+        padding: 60px 0px;
+    }
+    .price-section .title{
+        text-align: center;
+        padding: 5px 0px;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .price-section .title h4{
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 2px;
+        text-align: center;
+    } 
+    .price-section .title h2{
+        font-size: 36px;
+        line-height: 46px;
+    } 
+    .price-section .title p{
+        font-size: 11px;
+        line-height: 21px;
+    }
+    .price-section .price-head {
+        padding: 10px 0px;
+    }   
+    .price-section .price-head h2{
+        font-size: 22px;  
+    }  
+    .price-section .price-box .price-inner {
+        padding: 15px 0px;
+    } 
+    .price-section .price-box .price-inner h1 sup{
+        font-size: 22px;  
+    }
+    .price-section .price-box .price-inner h1{
+        font-size: 24px;  
+    } 
+    .price-section .price-box .price-inner p{
+        font-size: 14px;
+        line-height: 24px;  
+    }
+    .price-section .price-box .price-content {
+        padding: 25px;
+    }
+    .price-section .price-box .price-content p {
+        font-size: 14px;
+        line-height: 24px;
+    } 
+    .price-section .price-box .price-content .btn-info {
+        font-size: 16px;
+    }
+    .contact-us {
+        padding: 60px 0px 0px;
+    } 
+    .contact-us .title{
+        text-align: center;
+        padding: 5px 0px;
+        margin-bottom: 20px;
+        background: url("../images/dotdot.png") center bottom no-repeat;
+    }
+    .contact-us .title h4{
+        font-size: 18px;
+        line-height: 28px;
+        letter-spacing: 2px;
+        text-align: center;
+    } 
+    .contact-us .title h2{
+        font-size: 36px;
+        line-height: 46px;
+    } 
+    .contact-us .title p{
+        font-size: 16px;
+        line-height: 26px;
+    }
+    .contact-us .info .fa {
+        font-size: 25px;
+    }  
+    .contact-us .info p {
+        font-size: 14px;
+    }
+    .main-form {
+        padding: 30px 40px 20px; 
+    }   
+    .main-form .text-right .btn-primary {
+        font-size: 16px;
+        padding: 10px 53px;
+    }
+    .footer-section {
+        padding: 20px 0px;
+    }
+    .footer-section .social-icon .fa {
+        font-size: 18px;
+        margin: 10px 10px; 
+    }
+    .footer-section .social-icon p{
+        font-size: 14px;
+    }       
+  }
+    
